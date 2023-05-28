@@ -1,0 +1,223 @@
+/* 清除并设置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ul{
+    float: right;
+    list-style-type: none;
+    margin-left: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+} */
+p{
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.clearfix::after,
+.clearfix::before {
+    display: table;
+}
+
+.clearfix::after {
+    content: "row over----------------------------------------------------------------";
+    clear: both;
+}
+
+/* 分割线 */
+
+
+body {
+    background-color:rgb(255,250,253);
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+h1 {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+.nav li {
+    float: left;
+    margin-right: 26px;
+}
+
+.nav li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui;
+    color: rgb(31, 29, 29);
+    height: 42px;
+    line-height: 42px;
+    padding: 0 9px;
+}
+
+li a:hover {
+    /* background-color: #111; */
+    border-bottom: 2px solid #00a4ff;
+}
+
+.sreach {
+    margin-left: 59px;
+    float: left;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.sreach input {
+    float: left;
+    padding-left: 20px;
+    width: 359.5px;
+    height: 40px;
+}
+
+.sreach input::placeholder {
+    font-size: 18px;
+    color: rgb(167, 169, 171);
+}
+
+.sreach .icon {
+    width: 50px;
+    height: 40px;
+    color: #c54e4e;
+}
+
+.sreach button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url("./assert/icon/搜索.svg");
+    border: 0;
+    background-color: #5cc0f5;
+}
+
+.sreach button:hover {
+    background-color: #00a4ff;
+}
+
+.user {
+    float: right;
+    margin-right: 5px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.user img {
+    /* 调节秃瓢对齐方式 */
+    vertical-align: middle;
+}
+
+.banner {
+    height: 420px;
+    background-color: #00a4ff;
+}
+
+.banner .wrapper {
+    height: 420px;
+    background-image: url("./assert/bg/bg1.webp");
+    opacity: 0.8;
+}
+
+.banner .left {
+    float: left;
+    /* 文字不贴边 */
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 18px;
+    width: 190px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .left a {
+    color: #fff;
+}
+
+.banner .left a:hover {
+    color: #00a4ff;
+}
+
+.banner .left span {
+    float: right;
+}
+
+.banner .right {
+    float: right;
+    margin-top: 30px;
+    width: 228px;
+    height: 360px;
+    background-color: #fff;
+}
+
+.banner .right h2 {
+    height: 48px;
+    background-color: #52a6e3;
+    /* 水平竖直居中 */
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+}
+
+.banner .right .content {
+    margin: auto 18px;
+    padding-top: 5px;
+
+}
+
+.banner .right .content h3 span {
+    font-size: 22px;
+}
+.banner .right .content h3{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.banner .right .content p{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #918888;
+}
+.banner .right .more {
+    display: block;
+    margin: 10px 14px 0;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.goods{
+    margin-top: 10px;
+    height: 60px;
+    background-color: #e9eef3;
+}
