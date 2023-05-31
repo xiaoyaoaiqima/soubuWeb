@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sreach {
+    margin-left: 59px;
+    float: left;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+}
+
+.sreach input {
+    float: left;
+    padding-left: 20px;
+    width: 359.5px;
+    height: 40px;
+}
+
+.sreach input::placeholder {
+    font-size: 18px;
+    color: rgb(167, 169, 171);
+}
+
+.sreach .icon {
+    width: 50px;
+    height: 40px;
+    color: #c54e4e;
+}
+
+.sreach button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url("./assert/icon/搜索.svg");
+    border: 0;
+    background-color: #5cc0f5;
+}
+
+.sreach button:hover {
+    background-color: #00a4ff;
+}
+
+
+
+
+/* 弹出登陆框按钮 */
+#login-header {
+    text-align: center;
+    width: 800px;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+#login-header a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+/* 登陆框主体 */
+.login {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 600px;
+    z-index: 9999;
+    display: none;
+    background-color: rgb(228, 228, 228);
+    /* 这里要注意绝对定位的盒子怎么在屏幕显示居中 */
+
+    border: 1px solid gray;
+}
+
+/* 登陆框标题 */
+.login-title {
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: move;
+}
+
+.login-title span a {
+    text-decoration: none;
+    border: 1px solid gray;
+    font-size: 12px;
+    color: black;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+/* 登陆表单 */
+.login-input {
+    margin: 20px 0px 30px 0px;
+
+}
+
+.login-input label {
+    /* float: left; */
+    position: relative;
+    left: 20%;
+    height: 35px;
+    line-height: 35px;
+    width: 90px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.login-input input.list-input {
+    position: relative;
+    left: 25%;
+    height: 35px;
+    line-height: 35px;
+    width: 350px;
+    text-indent: 5px;
+}
+
+.pic-input {
+    background-color: #fff;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px dashed #ccc;
+    width: 500px;
+    height: 250px;
+}
+.login-footer{
+    margin-top: 15px;
+    background-color: #fff;
+    height: 100px;
+}
+/* 登陆框登陆按钮 */
+.loginSubmit {
+    position: relative;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+    background-color: white;
+    margin-right: 80px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+/* 遮盖层 */
+.bg {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    opacity: 0.3;
+    -webkit-opacity: 0.3;
+    -moz-opacity: 0.3;
+    display: none;
+}

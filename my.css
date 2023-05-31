@@ -1,6 +1,29 @@
-.col{
+.usernav {
+    float: left;
+    margin-left: 40px;
+    height: 42px;
+    margin-top: 30px;
+}
+
+.usernav li {
+    float: left;
+    margin-right: 26px;
+    margin-left: 15px;
+}
+
+.usernav li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui;
+  
+}
+
+
+
+.col {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr ;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 3fr 6fr;
     width: 1350px;
     height: 1000px;
@@ -11,39 +34,66 @@
 
 
 
-.col_left{
+.col_left {
     grid-column: 1/2;
     position: relative;
     left: 20px;
 }
 
-.col_left ul li{
+.col_left ul li {
     margin-top: 10px;
 }
 
-.col_left ul li a{
+.col_left ul li a {
     color: rgb(102, 75, 75);
 }
 
-.col_left ul li a:hover{
+.col_left ul li a:hover {
     color: rgb(193, 141, 141);
 }
 
-.col_middle{
+.col_middle {
     grid-column: 2/3;
     /* position: fixed;
     left: 250px;
     top: 100px; */
 }
-.col_middle_top{
-    background-color: #ebe9e9;
+
+.col_middle_top {
+    width: 880px;
+    height: 100px;
+    background-color: #eaf4ff;
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(195, 194, 194, 0.5);
 }
-.userPic{
+
+.userPic {
     margin-left: 10px;
     padding-right: 10px;
+    width: 100px;
+    height: 80px;
+
 }
-.userName{
-    padding-top: 3px;
+
+.userName {
+    padding-top: 10px;
     float: top;
+}
+
+.userClass {
+    position: relative;
+    top: 50px;
+    left: -140px;
+    width: 50px;
+    height: 15px;
+}
+
+.col_middle_second {
+    width: 880px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    border: 1px solid rgba(195, 194, 194, 0.5);
 }

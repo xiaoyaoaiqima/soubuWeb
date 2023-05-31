@@ -23,6 +23,13 @@ li {
 a {
     text-decoration: none;
     font-size: 18px;
+    color: rgb(31, 29, 29);
+}
+
+
+li a:hover {
+    /* background-color: #111; */
+    border-bottom: 2px solid #00a4ff;
 }
 
 .clearfix::after,
@@ -43,6 +50,7 @@ body {
 }
 
 .wrapper {
+    
     width: 1200px;
     margin: 0 auto;
 }
@@ -59,6 +67,7 @@ h1 {
 }
 
 .nav {
+
     float: left;
     margin-left: 70px;
     height: 42px;
@@ -74,15 +83,9 @@ h1 {
     font-size: 18px;
     font-weight: 200;
     font-family: system-ui;
-    color: rgb(31, 29, 29);
     height: 42px;
     line-height: 42px;
     padding: 0 9px;
-}
-
-li a:hover {
-    /* background-color: #111; */
-    border-bottom: 2px solid #00a4ff;
 }
 
 .sreach {
@@ -138,7 +141,7 @@ li a:hover {
 
 .banner {
     height: 420px;
-    background-color: #00a4ff;
+    /* background-color: #00a4ff; */
 }
 
 .banner .wrapper {

@@ -1,3 +1,37 @@
+
+.storenav {
+    position: relative;
+    left: 150px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 200px;
+    height: 42px;
+
+}
+
+.storenav li {
+    float: left;
+    margin-right: 26px;
+}
+
+.storenav li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: system-ui;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 9px;
+}
+
+
+
+
+
+
+
+
+
 .storeLogo {
     position: fixed;
     top: 120px;
@@ -42,8 +76,9 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 1350px;
     height: 1000px;
-    grid-gap: 10px;
-    margin: auto;
+    gap: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .storeGoods div::before {
