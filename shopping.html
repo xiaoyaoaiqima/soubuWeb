@@ -13,13 +13,13 @@
 <body>
     <div class="shoppingheader">
         <!-- navbar -->
-        <div class="nav" style="margin-left: 400px;">
+        <div class="nav" style="margin-left: 270px;">
             <ul>
                 <li><a href="index.html">首页</a></li>
             </ul>
         </div>
 
-        <div class="sreach" style="margin-left: 500px;">
+        <div class="sreach" style="margin-left: 520px;">
             <input placeholder="搜索购物车" type="text">
             <button id="adminBtn"></button>
         </div>
@@ -27,18 +27,124 @@
 
     <div class="shoppingbody">
         <div class="shoppingbody-box">
+            <!-- 头部 -->
             <div class="shoppingbody-box-header">
-                <h2 class="shopping-car">购物车&nbsp;(全部146)</h2>
-                <p class="goodsnum">已选商品（不含运费）<span style="font-size: 20px; color: red;">0.00</span></p>
-                <div class="goods-account">
-                    <p style="width: 50%;text-anchor: middle;"> 结算</p>
+                <div class="shoppingbody-box-header-left">
+                    <p style="font-size: 20px;">购物车&nbsp;(全部146)</p>
                 </div>
-                <hr style=" margin-top: 25px; border-top: 1px solid #cccccc;">
+                <div class="shoppingbody-box-header-right">
+                    <p class="shoppingbody-box-header-right-infor">已选商品（不含运费）<span
+                            style="font-size: 20px; color: red;">0.00</span></p>
+                    <div class="shoppingbody-box-header-right-box">
+                        <p style="margin-left: -2px;"> 结算</p>
+                    </div>
+                </div>
+                <hr>
             </div>
+            <!-- 标题 -->
+            <div class="shoppingbody-box-title">
+                <ul class="clearfix">
+                    <li>
+                        <label><input type="checkbox" checked>全部</label>
+                    </li>
+                    <li>商品信息</li>
+                    <li>单价 </li>
+                    <li>数量 </li>
+                    <li>金额</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <!-- 商品 -->
+            <div class="shoppingbody-box-box">
+                <!-- 店铺名字 -->
+                <div class="shoppingbody-box-box-title">
+                    <ul>
+                        <li>
+                            <label><input type="checkbox" checked>店铺：绍兴纺织厂</label>
+                        </li>
+                        <li>
+                            <select class="shoppingbody-box-box-title-section">
+                                <option disabled selected>&lt;请领取您的优惠券</option>
+                                <option value="option1">无</option>
+                                <option value="option1">
+                                    <ul>
+                                        <li>$5</li>
+                                        <li>店铺专属优惠券</li>
+                                        <li><button style="border: 1px solid gray">领取</button></li>
+                                    </ul>
+                                </option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                                <option value="option4">Option 4</option>
+                                <option value="option5">Option 5</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="shoppingbody-box-box-box">
+                    <div class="shoppingbody-box-box-box-title">
+                        <p style="margin-left: 50px;">每满200减30</p>
+                    </div>
+                    <div class="shoppingbody-box-box-content">
+                        <div class="shoppingbody-box-box-content-item">
+                            <ul>
+                                <li> <label><input type="checkbox" checked></label></li>
+                                <li><img style="width:100px;height: 100px;" src="./assert/bg/bg1.webp" alt=""></li>
+                                <li>
+                                    <p>金丝针织面料</p>
+                                </li>
+                                <li>
+                                    <p style="color: rgb(151, 145, 145);"> 颜色分类：紫 </p>
+                                </li>
+                                <li>
+                                    <ul class="ori-ul">
+                                        <li> 590<br><span style="text-decoration: line-through; display: block;">$1590
+                                            </span></li>
+                                        <li> <button id="my-button">卖家降价 &uarr;</button>
+                                            <div id="tooltip-container" class="tooltip-container">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">加入购物车</a><br>
+                                    <a href="#">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shoppingbody-box-box-content-item">
+                            <ul>
+                                <li> <label><input type="checkbox" checked></label></li>
+                                <li><img style="width:100px;height: 100px;" src="./assert/bg/bg1.webp" alt=""></li>
+                                <li>
+                                    <p>金丝针织面料</p>
+                                </li>
+                                <li>
+                                    <p style="color: rgb(151, 145, 145);"> 颜色分类：紫 </p>
+                                </li>
+                                <li>
+                                    <ul class="ori-ul">
+                                        <li> 590<br><span style="text-decoration: line-through; display: block;">$1590
+                                            </span></li>
+                                        <li> <button id="my-button">卖家降价 &uarr;</button>
+                                            <div id="tooltip-container" class="tooltip-container">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">加入购物车</a><br>
+                                    <a href="#">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="./shopping.js"></script>
 
 </html>

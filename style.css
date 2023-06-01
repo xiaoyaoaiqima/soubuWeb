@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* ul{
     float: right;
     list-style-type: none;
@@ -13,13 +14,16 @@
     overflow: hidden;
     background-color: #333;  
 } */
-p{
+p {
     font-size: 14px;
 }
+
 li {
     list-style: none;
 }
-
+.ori-ul{
+    list-style: none;
+}
 a {
     text-decoration: none;
     font-size: 18px;
@@ -38,7 +42,7 @@ li a:hover {
 }
 
 .clearfix::after {
-    content: "row over----------------------------------------------------------------";
+    content: "";
     clear: both;
 }
 
@@ -46,11 +50,11 @@ li a:hover {
 
 
 body {
-    background-color:rgb(255,250,253);
+    background-color: rgb(255, 250, 253);
 }
 
 .wrapper {
-    
+
     width: 1200px;
     margin: 0 auto;
 }
@@ -199,14 +203,17 @@ h1 {
 .banner .right .content h3 span {
     font-size: 22px;
 }
-.banner .right .content h3{
+
+.banner .right .content h3 {
     padding-top: 10px;
     font-size: 18px;
 }
-.banner .right .content p{
+
+.banner .right .content p {
     padding-bottom: 12px;
     border-bottom: 1px solid #918888;
 }
+
 .banner .right .more {
     display: block;
     margin: 10px 14px 0;
@@ -219,7 +226,7 @@ h1 {
     font-weight: 700;
 }
 
-.goods{
+.goods {
     margin-top: 10px;
     height: 60px;
     background-color: #e9eef3;
